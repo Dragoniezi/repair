@@ -275,18 +275,22 @@ img {
 }
 
 .offer__title {
+  font-size: 24px;
   max-width: 360px;
   line-height: 35px;
   margin-bottom: 24px;
+  color: #333333;
 }
 
 .offer__subtitle {
+  font-size: 16px;
   max-width: 250px;
-  margin-bottom: 30px;
+  margin-bottom: 33px;
+  color: #333333;
 }
 
 .offer__input {
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   width: 240px;
 }
 
@@ -297,6 +301,8 @@ img {
 .offer__button {
   width: 100%;
   min-height: 70px;
+  font-family: 'Museo Sans Bold', serif;
+  font-weight: 700;
 }
 
 .offer-row {
@@ -307,6 +313,14 @@ img {
       -ms-flex-pack: space-beetween;
           justify-content: space-beetween;
   margin-top: 31px;
+}
+
+.offer__phone {
+  font-size: 15px;
+  line-height: 24px;
+  color: #333333;
+  font-family: 'Museo Sans Bold', serif;
+  font-weight: 700;
 }
 
 .offer__row0 {
