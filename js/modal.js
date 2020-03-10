@@ -9,6 +9,6 @@ $(document).ready(function(){
     modal.removeClass('modal_active');
   });
   $('h1').mouseenter(function(){
-    $(this).toggleClass('blue')
+    $(this).toggleClass('color: #fff !important')
   });
 });

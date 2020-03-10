@@ -16,6 +16,15 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Museo Sans Medium';
+  src: url('../fonts/MuseoSansCyrl/MuseoSansCyrl-500.eot');
+  src: url('../fonts/MuseoSansCyrl/MuseoSansCyrl-500.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/MuseoSansCyrl/MuseoSansCyrl-500.woff') format('woff'),
+  url('../fonts/MuseoSansCyrl/MuseoSansCyrl-500.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
 
 @mixin reg {
   font-family: 'Museo Sans Light', serif;
@@ -24,4 +33,8 @@
 @mixin bold {
   font-family: 'Museo Sans Bold', serif;
   font-weight: 700;
+}
+@mixin my {
+  font-family: 'Museo Sans Medium', serif;
+  font-weight: 500;
 }
