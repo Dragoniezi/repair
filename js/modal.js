@@ -11,4 +11,7 @@ $(document).ready(function(){
   $('h1').mouseenter(function(){
     $(this).toggleClass('color: #fff !important')
   });
+
+$('.hero').delay('slow').hide('fast').delay(1000).show(1000) 
+
 });
