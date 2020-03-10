@@ -11,3 +11,8 @@ close.addEventListener('click', function() {
 });
 
 
+$(document).ready(function(){
+
+  $('.hero').delay('slow').hide('fast').delay(1000).show(1000)
+
+});
