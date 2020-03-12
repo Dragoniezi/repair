@@ -9,7 +9,7 @@ $(document).ready(function(){
     modal.removeClass('modal_active');
   });
   $('h1').mouseenter(function(){
-    $(this).toggleClass('color: #fff !important')
+    $(this).toggleClass('blue')
   });
 
 $('.hero').delay('slow').hide('fast').delay(1000).show(1000) 
