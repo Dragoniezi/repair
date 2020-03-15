@@ -12,6 +12,5 @@ $(document).ready(function(){
     $(this).toggleClass('blue')
   });
 
-$('.hero').delay('slow').hide('fast').delay(1000).show(1000) 
 
 });
